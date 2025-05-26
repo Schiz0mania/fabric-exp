@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperledger.fabric.samples.fabcar.FabCarTest$InvokeCreateCarTransaction" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-20T01:13:27" hostname="xdeMacBook-Air.mshome.net" time="0.002">
+  <properties/>
+  <testcase name="whenCarExists()" classname="org.hyperledger.fabric.samples.fabcar.FabCarTest$InvokeCreateCarTransaction" time="0.001"/>
+  <testcase name="whenCarDoesNotExist()" classname="org.hyperledger.fabric.samples.fabcar.FabCarTest$InvokeCreateCarTransaction" time="0.001"/>
+  <system-out><![CDATA[Car CAR0 already exists
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,60 @@
+# how to use :./tape --config=config.yaml --number=5
+
+# Definition of nodes
+# addr address for node
+# tls_ca_cert tls cert
+peer1: &peer1
+  addr: localhost:7051
+  ssl_target_name_override: peer0.org1.example.com
+  org: org1
+  tls_ca_cert: /Users/xyz/Desktop/毕设/exp/fabric/fabric/scripts/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem
+peer2: &peer2
+  addr: localhost:9051
+  ssl_target_name_override: peer0.org2.example.com
+  org: org2
+  tls_ca_cert: /Users/xyz/Desktop/毕设/exp/fabric/fabric/scripts/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/tlsca/tlsca.org2.example.com-cert.pem
+orderer1: &orderer1
+  addr: localhost:7050
+  ssl_target_name_override: orderer.example.com
+  org: org1
+  tls_ca_cert: /Users/xyz/Desktop/毕设/exp/fabric/fabric/scripts/fabric-samples/test-network/organizations/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
+# Peer Nodes to interact with as endorsement Peers
+policyFile: ./test/andLogic.rego
+endorsers:
+  - *peer1
+  - *peer2
+# Peer Nodes to interact with as Commit Peers as listening
+committers:
+  - *peer1
+  - *peer2
+# we might support multi-committer in the future for more complex test scenario.
+# i.e. consider tx committed only if it's done on >50% of nodes.
+# Give your commit Threshold as numbers for peers here.
+commitThreshold: 1
+# orderer Nodes to interact with
+orderer: *orderer1
+# Invocation configs
+channel: mychannel
+chaincode: MyContract
+
+args:
+
+  #
+#    - ReadAllLedger
+  #
+    - RegisterUser
+    - randomString8
+    - randomString8
+    - randomString8
+# Tx submiter information
+mspid: Org1MSP
+#this section need to manully update every time a new network is brought up!!!!!!!!!!!!!!!!!!!!!!!
+private_key: /Users/xyz/Desktop/毕设/exp/fabric/fabric/scripts/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/keystore/ffe4ac8a4fa07988a353643a3664e077fcda312c244fb2afefa3741f252d0d5b_sk
+  #./organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/keystore/priv_sk
+#/Users/xyz/Desktop/毕设/exp/fabric/fabric/scripts/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/keystore
+sign_cert: /Users/xyz/Desktop/毕设/exp/fabric/fabric/scripts/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/cert.pem
+  #./organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/User1@org1.example.com-cert.pem
+#/Users/xyz/Desktop/毕设/exp/fabric/fabric/scripts/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/User1@org1.example.com/msp/signcerts/
+# network traffic control
+num_of_conn: 10
+client_per_conn: 10

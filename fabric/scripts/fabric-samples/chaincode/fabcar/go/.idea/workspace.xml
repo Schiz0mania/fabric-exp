@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5eb1c78b-9f50-41b9-a856-b784d79df3ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../javascript/lib/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../fabcar/go/fabcar.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fabcar/go/fabcar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../fabcar/javascript/invoke.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fabcar/javascript/invoke.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../fabcar/javascript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fabcar/javascript/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../fabcar/javascript/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fabcar/javascript/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../fabcar/startFabric.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fabcar/startFabric.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.19.5/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chaincode.env.example" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fabcar.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/go.sum" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N4rl4xaw43Jxx5a46z2DHLg35v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.vendoring.notification.had.been.shown&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xyz/Desktop/work/FabricProjects/fabric/scripts/fabric-samples/chaincode/fabcar/go&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;go.vgo&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eb1c78b-9f50-41b9-a856-b784d79df3ca" name="Changes" comment="" />
+      <created>1678934342158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678934342158</updated>
+      <workItem from="1678934343768" duration="698000" />
+      <workItem from="1679706352824" duration="1059000" />
+      <workItem from="1679707421256" duration="1287000" />
+      <workItem from="1679711608050" duration="50000" />
+      <workItem from="1679712466188" duration="614000" />
+      <workItem from="1679879238640" duration="354000" />
+      <workItem from="1679879884230" duration="642000" />
+      <workItem from="1679880605847" duration="3955000" />
+      <workItem from="1679896899547" duration="5000" />
+      <workItem from="1679896912763" duration="2000" />
+      <workItem from="1679901125354" duration="3375000" />
+      <workItem from="1680311449099" duration="168000" />
+      <workItem from="1680572132372" duration="3255000" />
+      <workItem from="1680657121303" duration="1355000" />
+      <workItem from="1680660391520" duration="1031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1365c3ff-f8f2-45f2-a5d8-7e5a8e7af6fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../chaincode/fabcar/javascript/lib/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go/fabcar.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go/fabcar.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/wallet/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoke.js" beforeDir="false" afterPath="$PROJECT_DIR$/invoke.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../networkDown.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../networkDown.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../startFabric.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../startFabric.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N4f6kYcNBKJEd0IgUyxf0ztG2m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xyz/Desktop/work/FabricProjects/fabric/scripts/fabric-samples/fabcar/javascript&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1365c3ff-f8f2-45f2-a5d8-7e5a8e7af6fb" name="Changes" comment="" />
+      <created>1678928102403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678928102403</updated>
+      <workItem from="1678928103765" duration="5292000" />
+      <workItem from="1679277823383" duration="5000" />
+      <workItem from="1679277831829" duration="57000" />
+      <workItem from="1680317077656" duration="629000" />
+      <workItem from="1680317901988" duration="94000" />
+      <workItem from="1680569324223" duration="2255000" />
+      <workItem from="1680573306726" duration="1150000" />
+      <workItem from="1680659068384" duration="789000" />
+      <workItem from="1680663248396" duration="143000" />
+      <workItem from="1680664636962" duration="31000" />
+      <workItem from="1680748141454" duration="605000" />
+      <workItem from="1680766211330" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

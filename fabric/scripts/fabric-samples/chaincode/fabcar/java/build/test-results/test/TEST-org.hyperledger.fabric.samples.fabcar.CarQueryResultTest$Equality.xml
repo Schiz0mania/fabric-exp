@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-03-20T01:13:27" hostname="xdeMacBook-Air.mshome.net" time="0.003">
+  <properties/>
+  <testcase name="handlesOtherObjects()" classname="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" time="0.0"/>
+  <testcase name="handlesKeyInequality()" classname="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" time="0.0"/>
+  <testcase name="isReflexive()" classname="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" time="0.0"/>
+  <testcase name="isTransitive()" classname="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" time="0.001"/>
+  <testcase name="handlesRecordInequality()" classname="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" time="0.0"/>
+  <testcase name="isSymmetric()" classname="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" time="0.0"/>
+  <testcase name="handlesNull()" classname="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" time="0.0"/>
+  <testcase name="handlesKeyRecordInequality()" classname="org.hyperledger.fabric.samples.fabcar.CarQueryResultTest$Equality" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
