@@ -1,3 +1,6 @@
+# 本科毕设实验
+基于fabcar例子
+
 ## before run
 1. set up the environment(go, docker, etc.)
 2. alter contract source at startFabric.sh
