@@ -1,5 +1,5 @@
-# 本科毕设实验
-基于fabcar例子
+# hyperledger fabric deploy notes
+based on fabcar 
 
 ## before run
 1. set up the environment(go, docker, etc.)
