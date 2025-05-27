@@ -3,8 +3,7 @@ based on fabcar
 
 ## before run
 1. set up the environment(go, docker, etc.)
-2. alter contract source at startFabric.sh
-3. run
+2. run
 
 ## run [cmd](./fabric/scripts/fabric-samples/fabcar)
 ```
